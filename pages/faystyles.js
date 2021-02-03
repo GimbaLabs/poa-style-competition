@@ -1,3 +1,5 @@
+import styles from '../styles/Fay.module.css'
+
 function faystyles() {
     return (
         <div>

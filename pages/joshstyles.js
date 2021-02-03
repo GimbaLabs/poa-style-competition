@@ -1,3 +1,5 @@
+import styles from '../styles/Josh.module.css'
+
 function joshstyles() {
     return (
         <div>
