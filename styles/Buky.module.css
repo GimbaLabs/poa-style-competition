@@ -51,10 +51,12 @@
     animation-iteration-count: infinite;
     animation-fill-mode: none;
     animation-play-state: running;
+    border-radius: 50%;
 }
 .movement h3{
     color: white;
     text-align: center;
+    padding-top:90px ;
     
 }
 
