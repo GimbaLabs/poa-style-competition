@@ -1,0 +1,87 @@
+.shape {
+    border-bottom: 50px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 300px;
+    
+}
+.shape2 {
+    border-bottom: 50px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 200px;
+    margin: auto;
+    
+}
+.shape3 {
+    border-bottom: 50px solid yellow;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+    margin: auto;
+    
+}
+.shape4 {
+   
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+@keyframes movement{
+    from{ background-color: red;}
+    to{ background-color: blue;}
+}
+.movement {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    border-style: solid red;
+    background-color: red;
+    animation-name: movement;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+.movement h3{
+    color: white;
+    text-align: center;
+    
+}
+
+.shadow {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    border-style: solid;
+}
+.shadow h1{
+    text-shadow: 2px 2px 5px red;
+}
+.text {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    border-style: solid;
+}
+
+.text h5 {
+    text-decoration: underline wavy blue;
+}
+
+.text h4 {
+    text-decoration: underline dotted red;
+}
+
+.text h3 {
+    text-decoration: line-through yellow;
+}
