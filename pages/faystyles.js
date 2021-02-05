@@ -4,10 +4,22 @@ function faystyles() {
     return (
         <div>
             <h1>Fay Style Page</h1>
-            <div class="shape">make me a different shape</div>
-            <div class="movement">animate me</div>
-            <div class="shadow">add shadows to me</div>
-            <div class="text">change this text to your name, then decorate it</div>
+            <div>
+                <div class="shape" style={{marginBottom: "6px"}}>make me a different shape</div>
+                <div className={styles.shape}>
+                </div>
+            </div>
+            <div>
+                <p>animate me</p>
+                <div className={styles.movement}>
+                    
+                    </div>
+                
+            </div>
+            <div className={styles.shadow}>add shadows to me</div>
+            <div className={styles.text}> <span className={styles.blue}> Favour </span> 
+                <span className={styles.purple}> Vivian </span> 
+                <span className={styles.orange}>Woka</span></div>
         </div>
     )
 }
