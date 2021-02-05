@@ -1,9 +1,9 @@
-import styles from '../styles/Fay.module.css'
+import styles from '../../../styles/Gwendal.module.css'
 
-function faystyles() {
+function gwendalstyles() {
     return (
         <div>
-            <h1>Fay Style Page</h1>
+            <h1>Gwendal Style Page</h1>
             <div class="shape">make me a different shape</div>
             <div class="movement">animate me</div>
             <div class="shadow">add shadows to me</div>
@@ -12,4 +12,4 @@ function faystyles() {
     )
 }
 
-export default faystyles
+export default gwendalstyles

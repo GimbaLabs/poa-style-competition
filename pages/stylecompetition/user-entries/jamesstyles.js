@@ -1,4 +1,4 @@
-import styles from '../styles/James.module.css'
+import styles from '../../../styles/James.module.css'
 
 function jamesstyles() {
     return (

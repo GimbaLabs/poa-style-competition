@@ -1,4 +1,4 @@
-import styles from '../styles/Buky.module.css'
+import styles from '../../../styles/Buky.module.css'
 
 function bukystyles() {
     return (

@@ -1,31 +1,19 @@
 import Link from 'next/link'
+import styles from '../styles/Nav.module.css'
 
 function Nav() {
     return (
         <div>
-            <ul>
-                <li>
-                    <Link href='/'>Home</Link>
-                </li>
-                <li>
-                    <Link href='/bukystyles'>Buky Styles</Link>
-                </li>
-                <li>
-                    <Link href='/faystyles'>Fay Styles</Link>
-                </li>
-                <li>
-                    <Link href='/joshstyles'>Josh Styles</Link>
-                </li>
-                <li>
-                    <Link href='/jamesstyles'>James Styles</Link>
-                </li>
-                <li>
-                    <Link href='/gwendalstyles'>Gwendal Styles</Link>
-                </li>
-                <li>
-                    <Link href='/quasarstyles'>Quasar Styles</Link>
-                </li>
-            </ul>
+            <nav className={styles.nav}>
+                <ul>
+                    <li>
+                        <Link href='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link href='/stylecompetition'>Style Competition</Link>
+                    </li>
+                </ul>
+            </nav>
         </div>
     )
 }
