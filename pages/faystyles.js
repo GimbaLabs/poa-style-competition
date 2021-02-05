@@ -5,7 +5,7 @@ function faystyles() {
         <div>
             <h1>Fay Style Page</h1>
             <div>
-                <div class="shape" style={{marginBottom: "6px"}}>make me a different shape</div>
+                <div style={{marginBottom: "6px"}}>make me a different shape</div>
                 <div className={styles.shape}>
                 </div>
             </div>
