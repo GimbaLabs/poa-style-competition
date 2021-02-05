@@ -20,6 +20,9 @@ function jamesstyles() {
                 <p>James</p>
                 <p><a href='https://fonts.google.com/' class={styles.jameslinks}>Google Fonts</a></p>
             </div>
+            <div class={styles.text}>
+                <a href='https://cssgradient.io/'>cool tool click here</a>
+            </div>
         </div>
     )
 }
