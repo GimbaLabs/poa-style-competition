@@ -1,9 +1,9 @@
-import styles from '../styles/Gwendal.module.css'
+import styles from '../../../styles/Quasar.module.css'
 
-function gwendalstyles() {
+function quasarstyles() {
     return (
         <div>
-            <h1>Gwendal Style Page</h1>
+            <h1>Quasar Style Page</h1>
             <div class="shape">make me a different shape</div>
             <div class="movement">animate me</div>
             <div class="shadow">add shadows to me</div>
@@ -12,4 +12,4 @@ function gwendalstyles() {
     )
 }
 
-export default gwendalstyles
+export default quasarstyles

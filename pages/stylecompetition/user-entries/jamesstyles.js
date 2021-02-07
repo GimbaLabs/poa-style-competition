@@ -1,4 +1,4 @@
-import styles from '../styles/James.module.css'
+import styles from '../../../styles/James.module.css'
 
 function jamesstyles() {
     return (
@@ -19,6 +19,9 @@ function jamesstyles() {
             <div class={styles.text}>
                 <p>James</p>
                 <p><a href='https://fonts.google.com/' class={styles.jameslinks}>Google Fonts</a></p>
+            </div>
+            <div class={styles.text}>
+                <a href='https://cssgradient.io/'>cool tool click here</a>
             </div>
         </div>
     )
