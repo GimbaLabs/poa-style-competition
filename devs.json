@@ -1,0 +1,18 @@
+[
+    {
+      "username"  : "SuperCoder1337",
+      "location"  : "The basement"
+    },
+    {
+      "username"  : "HackerKid",
+      "location"  : "The kitchen"
+    },
+    {
+      "username"  : "StarDev",
+      "location"  : "ABCD"
+    },
+    {
+      "username"  : "FullStackPro",
+      "location"  : "POA"
+    }
+]
