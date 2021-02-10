@@ -12,6 +12,9 @@ function Nav() {
                     <li>
                         <Link href='/stylecompetition'>Style Competition</Link>
                     </li>
+                    <li>
+                        <Link href='/developers'>Developers</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

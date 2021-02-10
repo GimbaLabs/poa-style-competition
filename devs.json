@@ -1,18 +1,12 @@
 [
     {
-      "username"  : "SuperCoder1337",
-      "location"  : "The basement"
+      "username"  : "FayVik",
+      "location"  : "POA",
+      "goals"     : ["Build on Cardano", "Gain knowledge of Next.js", "Teach more devs!"]
     },
     {
-      "username"  : "HackerKid",
-      "location"  : "The kitchen"
-    },
-    {
-      "username"  : "StarDev",
-      "location"  : "ABCD"
-    },
-    {
-      "username"  : "FullStackPro",
-      "location"  : "POA"
+      "username"  : "g-prog",
+      "location"  : "POA",
+      "goals"     : ["Gain understanding of Next.js", "Figure out how JavaScript works"]
     }
 ]

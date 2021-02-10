@@ -1,4 +1,7 @@
 import getStyleExamples from '../../lib/getStyleExamples'
+import Link from 'next/link'
+
+// getStaticProps() is the MOST IMPORTANT THING I'm showing you today!
 
 export async function getStaticProps() {
     const allStyleEntries = getStyleExamples()
@@ -15,7 +18,11 @@ function stylecompetition({allStyleEntries}) {
             <h1>Style Competition</h1>
             <ul>
                 {allStyleEntries.map(({myFile}) => 
-                    <li>{myFile}</li>
+                    <li>
+                        <Link href={`/stylecompetition/user-entries/${myFile}`}>
+                            {myFile}
+                        </Link>
+                    </li>
                 )}
 
             </ul>
