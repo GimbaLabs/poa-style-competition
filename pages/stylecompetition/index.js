@@ -12,6 +12,7 @@ export async function getStaticProps() {
     }
 }
 
+
 function stylecompetition({allStyleEntries}) {
     return (
         <div>
