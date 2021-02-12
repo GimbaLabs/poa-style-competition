@@ -1,12 +1,27 @@
-[
-    {
-      "username"  : "FayVik",
-      "location"  : "POA",
-      "goals"     : ["Build on Cardano", "Gain knowledge of Next.js", "Teach more devs!"]
-    },
-    {
-      "username"  : "g-prog",
-      "location"  : "POA",
-      "goals"     : ["Gain understanding of Next.js", "Figure out how JavaScript works"]
-    }
-]
+{
+  "team" : [
+      {
+        "username"  : "FayVik",
+        "location"  : "POA",
+        "goals"     : ["Build on Cardano", "Gain knowledge of Next.js", "Teach more devs!"]
+      },
+      {
+        "username"  : "g-prog",
+        "location"  : "POA",
+        "goals"     : ["Gain understanding of Next.js", "Figure out how JavaScript works"]
+      },
+      {
+        "username"  : "jsierrax",
+        "location"  : "East Coast US",
+        "goals"     : ["Learn how to use blockchain in web apps", "Figure out how to make code make sense!", "Here is another goal!"]
+      },
+      {
+        "username"  : "workshop-maybe",
+        "location"  : "Central MA US",
+        "goals"     : ["Learn how to use blockchain in web apps", "Figure out how to make code make sense!"]
+      }
+
+  ],
+  "coursename" : "POA Dev Course 1",
+  "date" : "February 2021"
+}
