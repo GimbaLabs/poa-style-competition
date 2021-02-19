@@ -15,6 +15,9 @@ function Nav() {
                     <li>
                         <Link href='/developers'>Developers</Link>
                     </li>
+                    <li>
+                        <Link href='/metadata'>Metadata</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
