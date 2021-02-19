@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import devs from '../../devs.json'
 import styles from '../../styles/Developers.module.css'
 
@@ -21,14 +22,15 @@ function developers({poadevs}) {
             <h1>Developer List</h1>
             <h3>{poadevs.coursename} | {poadevs.date}</h3>
 
-                {poadevs.team.map(({username, location, goals}) => 
-                    <div className={styles.devcard}>
-                        <h1>{username}</h1> 
-                        <h2>{location}</h2>
-                        <ol>
-                            {goals.map((x) => <li>{x}</li> )}
-                        </ol>
-                    </div>
+                {poadevs.team.map(({username}) => 
+                    <Link href={`/developers/${username}`}>
+                        <a>
+                            <div className={styles.devcard}>
+                                <h1>{username}</h1> 
+                            </div>
+                        </a>
+                    </Link>
+
                 )}
 
 

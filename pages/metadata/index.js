@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../../styles/Developers.module.css'
 
 export async function getStaticProps() {
@@ -29,9 +30,13 @@ function index({data}) {
             <h2>Here is a list of all keys:</h2>
             
                 {data.map(id => 
-                    <div className={styles.devcard}>
-                        <h1>{id.metadatum}</h1>
-                    </div>
+                    <Link href={`/metadata/${id.metadatum}`}>
+                        <a>
+                            <div className={styles.devcard}>
+                                <h1>{id.metadatum}</h1>
+                            </div>
+                        </a>
+                    </Link>
                 )}
             
         </div>
