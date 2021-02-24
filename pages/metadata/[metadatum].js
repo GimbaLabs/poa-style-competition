@@ -1,6 +1,6 @@
 export const getServerSideProps = async pageContext => {
     const metadatakey = pageContext.query.metadatum
-    const res = await fetch(`https://postgrest-api.mainnet.dandelion.link/rpc/get_metadata?metadatum=${metadatakey}`)
+    const res = await fetch(`https://postgrest-api.testnet.dandelion.link/rpc/get_metadata?metadatum=${metadatakey}`)
     const data = await res.json()
 
     return {
@@ -19,3 +19,6 @@ export default function metadatum({metadatakey, data}) {
         </div>
     )
 }
+
+// What if I want to make this metadata look better?
+// What if I don't want every transaction?
